@@ -1,2 +1,2 @@
 # learning
-my learning-note for all tech
+my learning-notes for all techs
