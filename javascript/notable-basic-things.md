@@ -11,3 +11,15 @@
   6.  decodeURI()/decodeURIComponent()
   7.  eval()
 * NaN === NaN 返回的是false，不存在自等， tpyeof NaN 为number
+##Object
+* 通常情况下不建议在键上加引号
+* 以下集中情况需要在键上加引号：
+  1.  如果属性名（键）是javascript保留字之一
+  2.  属性名中包含空格或者其他特殊字符（除字母、数字及下划线以外的字符）
+  3.  属性名以数字开头
+```javascript
+Object instanceof Object;   //true
+Function instanceof Object; //true
+Object instanceof Function; //true
+Object.constructor -> function Function(){};
+```
