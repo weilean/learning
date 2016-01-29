@@ -1,5 +1,5 @@
 ##javascript Tips
-####Tip1.checkout IE9 and below
+####Tip1　checkout IE9 and below
 ```javascript
 var agent = navigator.userAgent,
     isIE = agent.indexOf('MSIE') > -1 && agent.indexOf('Trident') > -1, //get IE10 and below
