@@ -13,7 +13,18 @@ var agent = navigator.userAgent,
 ```
 ###Tip2　check browser
 ```javascript
-browser = function(){}
-
+browser = function(){
+    var agent = navigator.userAgent,
+        isIE = agent.indexOf('Trident') > -1,
+        isFF = agent.indexOf('Firefox') > -1,
+        isEdge = agent.indexOf('Edge') > -1,
+        isOpera = agent.indexOf('OPR') > -1,
+        isChrome = agent.indexOf('Chrome') > -1,
+        isSafari = agent.indexOf('Safari') > -1,
+        
+        browserType,
+        verStr,
+        ver;
+}
 ```
 
