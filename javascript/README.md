@@ -11,3 +11,9 @@ var agent = navigator.userAgent,
       if(ver <= 9) console.log(ver); 
     }
 ```
+###Tip2　check browser
+```javascript
+browser = function(){}
+
+```
+
