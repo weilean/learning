@@ -11,6 +11,7 @@
   6.  decodeURI()/decodeURIComponent()
   7.  eval()
 * NaN === NaN 返回的是false，不存在自等， tpyeof NaN 为number
+
 ##Object
 * 通常情况下不建议在键上加引号
 * 以下集中情况需要在键上加引号：
